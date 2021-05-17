@@ -1,0 +1,19 @@
+{
+  "name": "test-go-srcmak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "yarn build:hello && yarn build:hola",
+    "build:hello": "jsii-srcmak . --entrypoint hello.ts --golang-outdir generated --golang-module 'github.com/ansgarm/example-jsii-srcmak-go/generated' --golang-package hello",
+    "postbuild:hello": "rm generated/hello/go.mod generated/hello/version generated/hello/LICENSE",
+    "build:hola": "jsii-srcmak . --entrypoint hola.ts --golang-outdir generated --golang-module 'github.com/ansgarm/example-jsii-srcmak-go/generated' --golang-package hola",
+    "postinstall": "patch-package"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsii-srcmak": "0.1.263",
+    "patch-package": "^6.4.7"
+  }
+}
