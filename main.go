@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	hello "github.com/ansgarm/example-jsii-srcmak-go/generated/hello"
-	hola "github.com/ansgarm/example-jsii-srcmak-go/generated/hola"
+	hola "github.com/ansgarm/hola-go/hola"
 )
 
 func main() {

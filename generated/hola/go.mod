@@ -1,4 +1,4 @@
-module github.com/ansgarm/example-jsii-srcmak-go/generated/hola
+module github.com/ansgarm/hola-go/hola
 
 go 1.16
 

@@ -7,7 +7,7 @@
     "build": "yarn build:hello && yarn build:hola",
     "build:hello": "jsii-srcmak . --entrypoint hello.ts --golang-outdir generated --golang-module 'github.com/ansgarm/example-jsii-srcmak-go/generated' --golang-package hello",
     "postbuild:hello": "rm generated/hello/go.mod generated/hello/version generated/hello/LICENSE",
-    "build:hola": "jsii-srcmak . --entrypoint hola.ts --golang-outdir generated --golang-module 'github.com/ansgarm/example-jsii-srcmak-go/generated' --golang-package hola",
+    "build:hola": "jsii-srcmak . --entrypoint hola.ts --golang-outdir generated --golang-module 'github.com/ansgarm/hola-go' --golang-package hola",
     "postinstall": "patch-package"
   },
   "author": "",

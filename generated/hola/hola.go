@@ -2,7 +2,7 @@
 package hola
 
 import (
-	_init_ "github.com/ansgarm/example-jsii-srcmak-go/generated/hola/jsii"
+	_init_ "github.com/ansgarm/hola-go/hola/jsii"
 	_jsii_ "github.com/aws/jsii-runtime-go"
 )
 
